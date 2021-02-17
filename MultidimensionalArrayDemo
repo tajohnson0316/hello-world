@@ -1,0 +1,14 @@
+package com.demo.arraydemo;
+
+public class MultidimensionalArrayDemo {
+    public static void main(String[] args) {
+
+        //MultiD arrays are arrays of arrays. This one is 2-dimensional.
+        int[][] twoD = new int[4][4];
+
+        twoD[0][0] = 1; //The 1st index of the 1st array = 1
+        twoD[1][1] = 2; //The 2nd index of the 2nd array = 2
+        twoD[3][2] = 3; //The 3rd index of the 4th array = 3
+        System.out.println(twoD[0][0]);
+    }
+}
