@@ -1,0 +1,13 @@
+package com.demo.oopdemo;
+
+public class Dog {
+    String breed;
+    String size;
+    int age;
+    String color;
+
+    public String getInfo() {
+        return ("Breed: " + breed + "\nSize: " + size
+        + "\nAge: " + age + "\nColor: " + color);
+    }
+}
