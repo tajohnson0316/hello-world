@@ -1,0 +1,56 @@
+package com.demo.arraylistdemo;
+
+import java.util.ArrayList;
+
+/*
+ Here we demonstrate the functions and uses of ArrayLists.
+ Whereas arrays are like a rope with a fixed length,
+ ArrayLists are more like rubber bands; their length is dynamic.
+*/
+public class ArrayListDemo {
+
+    public static void main(String[] args) {
+
+        // Creates a generic ArrayList of type String
+        ArrayList<String> arrayList = new ArrayList<String>();
+        //Prints the initial size of arrayList using .size()
+        System.out.println("Size of the ArrayList at creation: " +
+                arrayList.size());
+
+        //Adds elements to arrayList using .add()
+        arrayList.add("D");
+        arrayList.add("U");
+        arrayList.add("K");
+        arrayList.add("E");
+
+        //Demonstrates size change in arrayList
+        System.out.println("Size of the ArrayList after new additions: " +
+                arrayList.size());
+
+        //Displays all of arrayList's elements
+        System.out.println("List of all elements: " + arrayList);
+
+        /*
+        Removes an element from arrayList using .remove(o: Object)
+         and then prints the change
+        */
+        arrayList.remove("D");
+        System.out.println("Contents of the ArrayList after element removal: " +
+                arrayList);
+
+        //Removes an element by index using .remove(index: int)
+        arrayList.remove(2);
+        System.out.println("Contents of the ArrayList after element removal by index: " +
+                arrayList);
+
+        //Demonstrates size change in arrayList after removals
+        System.out.println("Size of the ArrayList after element removal: " +
+                arrayList.size());
+        System.out.println("List of all elements after element removal: " +
+                arrayList);
+
+        //Checks if arrayList contains "K" using .contains(o: Object)
+        System.out.println("This ArrayList contains the character 'K': " +
+                arrayList.contains("K"));
+    }
+}
