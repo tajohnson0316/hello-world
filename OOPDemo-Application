@@ -1,6 +1,6 @@
 package com.demo.oopdemo;
 
-public class Application {
+public class OOPDemo {
     public static void main(String[] args) {
 
         Dog maltese = new Dog();
