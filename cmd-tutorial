@@ -1,0 +1,5 @@
+To run a Java application through the command line, you must first ensure the application has a main method.
+After you have saved and compiled the code, open the cmd and use 'cd' to navigate to the directory of the application.
+Enter 'java file_name.java args1 args2 args3...etc'
+Press enter
+Rejoice!
